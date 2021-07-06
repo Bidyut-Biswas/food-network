@@ -9,42 +9,39 @@
 body{
     width: 100%;
 }
-/* .header{
+.header{
+    display: flex;
     width: 100%;
     background-color:rgb(219, 216, 216);
-    margin: auto;
     position: fixed;
-}
-header{
-    display: flex;
 }
 .logo{
     width: 20%;
 }
 .logo img{
     width: 80px;
-    margin: auto;
 }
 .nav{
     width: 80%;
 }
 .nav ul{
     display: flex;
-    justify-content: flex-end;
+    float: right;
+
 }
 .nav ul li{
     margin: 10px 5px ;
     padding: 10px;
    font-size: 20px;
     
-}
+} 
 .nav ul li a:hover{
     color: honeydew;
     background-color: tomato;
     border-radius: 7px;
     padding: 10px;
     
-} */
+}
 
 .welcome{
     display: flex;
