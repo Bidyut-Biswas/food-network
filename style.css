@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+}
+.welcome{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-image: url("images/shapes/Frame\ 59.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+.half-width{
+    width: 40%;
+    margin: 5%;
+    padding: 2%;
+}
+
+.half-width h1{
+    font-size: 50px;
+    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(80, 77, 77);
+    margin-bottom: 15px;
+}
+.half-width h1 span{
+    color: tomato;
+}
+.half-width p{
+    margin: 15px 0px;
+    color: gray;
+    font-size: 18px;
+}
+.half-width a{
+    margin: 10px 0px;
+    padding: 10px;
+    color: white;
+    background-image: linear-gradient(salmon,tomato);
+    border: none;
+    border-radius: 7px;
+    display: inline-block;
+    box-shadow: 0px 0px 10px pink;
+    transition: 1.5s;
+}
+.half-width a:hover{
+    transform: scale(1.2);
+}
+.half-width img{
+    width: 100%;
+}
+
+.about-me{
+    display: flex;
+    background-image: url("images/shapes/7.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    align-items: center;
+}
+.recipies{
+    margin: 100px 0px;
+}
+.recipies-title{
+    text-align: center;
+    margin: 50px 10px;
+}
+.recipies-title h2{
+    margin-bottom: 10px;
+}
+.recipie-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.recipie-card img{
+    width: 100%;
+}
+.recipie1{
+    width: 30%;
+    box-shadow: 2px 2px 15px gray;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.recipie1 h3{
+    margin: 20px 0px;
+}
+.recipie1 p{
+    font-weight: lighter;
+    line-height: 25px;
+}
+.subscribe{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    box-shadow: 3px 3px 15px gray;
+    width: 95%;
+    margin:100px auto;
+    border-radius: 10px;
+}
+.subscribe h1{
+    font-size: 40px;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    color: gray;
+    background-color: black;
+    padding: 50px;
+    margin: 50px 0px;
+}
+footer h1{
+    margin-bottom: 30px;
+}
+footer span{
+    color: indianred;
+}
+footer span:nth-child(2){
+    color: gray;
+}
