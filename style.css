@@ -9,7 +9,7 @@
 body{
     width: 100%;
 }
-.header{
+/* .header{
     width: 100%;
     background-color:rgb(219, 216, 216);
     margin: auto;
@@ -44,7 +44,7 @@ header{
     border-radius: 7px;
     padding: 10px;
     
-}
+} */
 
 .welcome{
     display: flex;
